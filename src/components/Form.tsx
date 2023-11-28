@@ -36,7 +36,6 @@ export const Form = ({ handleOnSubmit }) => {
             <FormLabel htmlFor="email">Email</FormLabel>
             <Input
               id="email"
-              type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email"
